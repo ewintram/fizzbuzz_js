@@ -19,6 +19,9 @@ describe('javabuzz', function() {
       it('"Buzz" when a number is divsible by 5', function () {
         expect(javabuzz.says(5)).toEqual("Buzz");
       });
+      it('"JavaBuzz" when a number is divisible by 15', function() {
+        expect(javabuzz.says(15)).toEqual("JavaBuzz");
+      });
     });
 
 });
